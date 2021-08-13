@@ -16,12 +16,10 @@ This example demonstrates:
 * To run the integration tests as well, call `mvn verify`
 * Code coverage reports are generated when `mvn verify` (or a full `mvn clean install`) is called.
   Point a browser at the output in `target/site/jacoco-both/index.html` to see the report.
-  
 
 ## Conventions
 
 This example follows the following basic conventions:
-
 | | unit test | integration test |
 | --- | --- | --- |
 | **resides in:** | `src/test/java/*Test.java` | `src/test/java/*IT.java` |
