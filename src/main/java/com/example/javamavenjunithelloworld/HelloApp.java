@@ -29,6 +29,7 @@ public class HelloApp {
             }
         }
 
+        
         Hello hi = new Hello();
         try {
             hi.setTimes(times);
